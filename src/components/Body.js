@@ -2,9 +2,11 @@ import AboutMe from "./body-components/AboutMe";
 import ContactMe from "./body-components/ContactMe";
 import Portfolio from "./body-components/Portfolio";
 import Resume from "./body-components/Resume";
+import ContactSuccess from "./body-components/ContactSuccess";
 
 export default function Body(props) {
   const activePage = props.activePage;
+  const setActivePage = props.setActivePage;
   switch (activePage) {
     case "about-me":
       return <AboutMe />;
@@ -13,7 +15,9 @@ export default function Body(props) {
     case "resume":
       return <Resume />;
     case "contact-me":
-      return <ContactMe />;
+      return <ContactMe setActivePage={setActivePage} />;
+    case "contact-success":
+      return <ContactSuccess />;
     default:
       return <AboutMe />;
   }

@@ -33,8 +33,13 @@ export default function AboutMe() {
             cycling, learning, trying new things, and spending quality time with
             my family/friends. Please don't hesitate to reach out if you'd like
             to collaborate.
+            <br></br>
           </p>
         </div>
+      </div>
+
+      <div>
+        <p class="p-10 bg-neutral-200"></p>
       </div>
     </div>
   );

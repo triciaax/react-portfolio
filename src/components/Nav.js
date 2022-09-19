@@ -12,12 +12,13 @@ export default function Nav(props) {
             src="logo.png"
             class="mr-3 h-6 sm:h-20"
             alt="Tricia Nghiem Logo"
+            onClick={() => changePage("about-me")}
           />
         </div>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          class="inline-flex items-center p-2 ml-3 text-lg text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          class="inline-flex items-center p-2 ml-3 text-lg text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
           aria-controls="navbar-default"
           aria-expanded="false"
         >
@@ -40,7 +41,7 @@ export default function Nav(props) {
           <ul class=" flex flex-col p-4 mt-4 bg-gray-50 border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-white md:dark:bg-green-900">
             <li>
               <button
-                class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-gray-500 md:p-0 dark:text-white"
+                class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:p-0 dark:text-white"
                 aria-current="page"
                 onClick={() => changePage("about-me")}
               >
