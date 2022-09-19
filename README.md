@@ -6,6 +6,6 @@ This is a portfolio I created using React. On my portfolio you'll find my work, 
 
 ## Screenshot
 ![screenshot](public/Readme.png)
+
 ## Links
-
-
+https://portfolio-tricia.herokuapp.com/
