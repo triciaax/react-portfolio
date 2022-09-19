@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Nav setActivePage={setActivePage} />
-      <Body activePage={activePage} />
+      <Body activePage={activePage} setActivePage={setActivePage} />
       <Footer />
     </div>
   );

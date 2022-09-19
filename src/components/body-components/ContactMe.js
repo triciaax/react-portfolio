@@ -1,7 +1,12 @@
 import { useState } from "react";
 
-export default function ContactMe() {
+const renderFieldRequired = () => {
+  return <div>This field is required.</div>;
+};
+
+export default function ContactMe(props) {
   const [formState, setFormState] = useState({});
+  const setActivePage = props.setActivePage;
   const setName = (e) => {
     setFormState((existingValues) => ({
       ...existingValues,
@@ -22,6 +27,20 @@ export default function ContactMe() {
       message: e.target.value,
     }));
   };
+
+  const validateForm = () => {
+    if (
+      formState.name &&
+      formState.name !== "" &&
+      formState.email &&
+      formState.email !== "" &&
+      formState.message &&
+      formState.message !== ""
+    ) {
+      setActivePage("contact-success");
+    }
+  };
+
   return (
     <div>
       <section className="text-gray-700 body-font relative">
@@ -57,6 +76,7 @@ export default function ContactMe() {
                     required
                     onChange={setName}
                   />
+                  {formState.name === "" ? renderFieldRequired() : <></>}
                 </div>
               </div>
               <div className="p-2 w-1/2">
@@ -79,6 +99,7 @@ export default function ContactMe() {
                     required
                     onChange={setEmail}
                   />
+                  {formState.email === "" ? renderFieldRequired() : <></>}
                 </div>
               </div>
               <div className="p-2 w-full">
@@ -100,12 +121,13 @@ export default function ContactMe() {
                     required
                     onChange={setMessage}
                   ></textarea>
+                  {formState.message === "" ? renderFieldRequired() : <></>}
                 </div>
               </div>
               <div className="p-2 w-full">
                 <button
-                  type="submit"
                   className="flex mx-auto text-white bg-green-900 border-0 py-2 px-8 focus:outline-none hover:bg-neutral-700 rounded text-sm"
+                  onClick={() => validateForm()}
                 >
                   Send Message
                 </button>
