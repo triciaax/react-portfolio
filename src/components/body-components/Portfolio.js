@@ -116,6 +116,9 @@ export default function Portfolio() {
         can also use this app to take, add, and delete notes. Specialities:
         JavaScript, HTML, CSS, Heroku deployment, & bootstrap.
       </div>
+      <div>
+        <p class="p-10"></p>
+      </div>
     </div>
   );
 }
