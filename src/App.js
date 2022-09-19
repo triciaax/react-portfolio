@@ -8,7 +8,7 @@ function App() {
   const [activePage, setActivePage] = useState("about-me");
   return (
     <div className="App">
-      <Nav setActivePage={setActivePage} />
+      <Nav activePage={activePage} setActivePage={setActivePage} />
       <Body activePage={activePage} setActivePage={setActivePage} />
       <Footer />
     </div>
