@@ -5,10 +5,9 @@ export default function AboutMe() {
         {" "}
         DEVELOPER & STRATEGIST
       </p>
-      <p class="text-xl pt-8 pb-20">
+      <p class="text-xl pt-8 pb-20 animate-pulse">
         Full stack developer & product strategist based in Chicago
       </p>
-
       <div class="grid grid-cols-1 gap-6 md:grid-cols-4 bg-neutral-200 p-10">
         <div class="justify-center col-span-1">
           <img src="aboutme.jpeg" class="rounded-full p-10"></img>
