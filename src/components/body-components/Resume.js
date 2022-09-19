@@ -1,9 +1,20 @@
 export default function Resume() {
   return (
     <div class="p-20 text-left">
+      <p class="text-2xl pt-5 font-black tracking-wide">EDUCATION</p>
+      <b>University of Minnesota – Twin Cities 2022</b>
+      <br></br>Full Stack Web Development Certificate
+      <br></br>
+      <br></br>
+      <b>University of Minnesota – Twin Cities 2017</b>
+      <br></br>Marketing, B.S.
+      <br></br>Human Resource Development, B.S
+      <br></br>Business Management, Minor
+      <br></br>
+      <p class="text-2xl pt-5 font-black tracking-wide">EXPERIENCE</p>
       <p>
         <b>
-          Business Product Manager - Back-end and Emerging Technology -
+          Business Product Manager - Back end and Emerging Technology -
           Microsoft
         </b>
         <br></br> July 2022 - Current
@@ -102,8 +113,14 @@ export default function Resume() {
           </li>
         </ul>
       </p>
-      <p class="p-20 text-center">
-        <a href="patricia_nghiem_2022.pdf">Click to View Entire Resume</a>.
+      <p class="p-10 text-center">
+        <button
+          type="submit"
+          className="flex mx-auto text-white bg-green-900 border-0 py-3 px-10 focus:outline-none hover:bg-neutral-700 rounded text-md"
+        >
+          {" "}
+          <a href="patricia_nghiem_2022.pdf">Click to View Entire Resume</a>
+        </button>
       </p>
     </div>
   );
