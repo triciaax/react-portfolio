@@ -58,7 +58,7 @@ export default function Portfolio() {
         <br></br>
         <b>Tech Blog</b>
         <br></br>
-        This is a CMS-style blog site similar to a users can publish, edit,
+        This is a CMS-style blog. Users can publish, edit,
         comment and delete their blog posts. Users can also create an account,
         login, logout, and manage their blog posts. Specialities: express.js,
         MySQL, html/css, handlebars, and sequelize.
