@@ -34,7 +34,7 @@ export default function Portfolio() {
         <br></br>Owned strategy from homepage to PDP for all of Target's Kids,
         Toddler, & Baby experiences. Specialities: web, mobile, & application
         strategy, internal search, SEO, pdp optimization, email marketing, item
-        set up, personalization, promo marketing, & adobe analytics, &
+        set up, personalization, promo marketing, adobe analytics, &
         filtering.
       </div>
 
