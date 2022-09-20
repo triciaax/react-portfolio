@@ -111,7 +111,7 @@ export default function Portfolio() {
         <br></br>
         <b>Note Taker</b>
         <br></br>
-        This application can be used to take notes and save them. Users can add
+        This application helps users take notes. Users can add
         a title and decription to their notes and reference them later. Users
         can also use this app to take, add, and delete notes. Specialities:
         JavaScript, HTML, CSS, Heroku deployment, & bootstrap.
