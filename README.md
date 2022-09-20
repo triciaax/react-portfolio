@@ -8,5 +8,6 @@ This is a portfolio I created using React. On my portfolio you'll find my work, 
 ![screenshot](public/Readme.png)
 
 ## Links
-[GitHub](https://triciaax.github.io/react-portfolio/ )
+[GitHub](https://triciaax.github.io/react-portfolio/)
+<br>
 [Heroku](https://portfolio-tricia.herokuapp.com/)
