@@ -9,7 +9,7 @@ export default function Resume() {
       <b>University of Minnesota – Twin Cities 2017</b>
       <br></br>Marketing, B.S.
       <br></br>Human Resource Development, B.S
-      <br></br>Business Management, Minor
+      <br></br>Management, Minor
       <br></br>
       <p class="text-2xl pt-5 font-black tracking-wide">EXPERIENCE</p>
       <p>
