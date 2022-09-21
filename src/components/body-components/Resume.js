@@ -32,7 +32,7 @@ export default function Resume() {
           </li>
           <li>
             -Develop a deep understanding of the business objectives of
-            stakeholders and users; evangelized the product vision and build
+            stakeholders and users -evangelize the product vision and build
             trust by maintaining an accurate and achievable roadmap
           </li>
         </ul>

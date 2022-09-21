@@ -20,19 +20,19 @@ export default function AboutMe() {
             </p>
             I am a full stack developer and product strategist. I recently
             completed a full stack development bootcamp from the University of
-            Minnesota. I started my career in the email development: coding
-            emails, automating programs, personalizing content, and segmenting
-            audience through databases. My experience in strategy development
-            ranges from email, web, application, and mobile planning. I have
-            launched successfully 200+ experiences across multiple platforms.
-            The art and science of technology has always been extremely
-            facinating to me. From strategy creation to development to release,
-            I love working all stages of product development and innovation.
-            Currently I am a product manager at Microsoft on their back-end and
-            emerging technology team. In my free time I love doing pilates,
-            cycling, learning, trying new things, and spending quality time with
-            my family/friends. Please don't hesitate to reach out if you'd like
-            to collaborate.
+            Minnesota. I started my career in email development: coding emails,
+            automating programs, personalizing content, and segmenting audiences
+            through databases. My experience in strategy development ranges from
+            email, web, application, and mobile planning. I have successfully
+            launched 200+ experiences across multiple platforms. The art and
+            science of technology has always been extremely facinating to me.
+            From strategy creation to development to release, I love working in
+            all stages of product development and innovation. Currently I am a
+            product manager at Microsoft on their back-end and emerging
+            technology team. In my free time I love doing pilates, cycling,
+            learning, trying new things, and spending quality time with my
+            family/friends. Please don't hesitate to reach out if you'd like to
+            collaborate.
             <br></br>
           </p>
         </div>
