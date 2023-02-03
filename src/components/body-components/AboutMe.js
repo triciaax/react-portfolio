@@ -1,46 +1,81 @@
-export default function AboutMe() {
+export default function AboutMe(props) {
+  const setActivePage = props.setActivePage;
+  const changePage = (pageName) => {
+    setActivePage(pageName);
+  };
   return (
-    <div class="pt-20 content-center">
-      <p class="text-6xl font-black pt-20 tracking-wider">
-        {" "}
-        DEVELOPER & STRATEGIST
-      </p>
-      <p class="text-xl pt-8 pb-20 animate-pulse">
-        Full stack developer & product strategist based in Chicago
-      </p>
-      <div class="grid grid-cols-1 gap-6 md:grid-cols-4 bg-neutral-200 p-10">
-        <div class="justify-center col-span-1">
-          <img src="aboutme.jpeg" class="rounded-full p-10"></img>
+    <div class="pt-20 mb-20 mt-10">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-3 pt-8 px-10">
+        <div>
+          <div class="text-4xl text-left font-thin">Hi there, I'm Tricia -</div>
+          <div class="text-4xl text-left font-thin">
+            I manage products, develop websites, & design experiences.
+          </div>
         </div>
+        <div class=""></div>
+      </div>
 
-        <div class="flex inline-block align-middle col-span-3">
-          <p class="text-left">
-            <p class="text-xl font-bold my-8 tracking-wider">
-              HELLO, MY NAME IS TRICIA.
-            </p>
-            I am a full stack developer and product strategist. I recently
-            completed a full stack development bootcamp from the University of
-            Minnesota. I started my career in email development: coding emails,
-            automating programs, personalizing content, and segmenting audiences
-            through databases. My experience in strategy development ranges from
-            email, web, application, and mobile planning. I have successfully
-            launched 200+ experiences across multiple platforms. The art and
-            science of technology has always been extremely facinating to me.
-            From strategy creation to development to release, I love working in
-            all stages of product development and innovation. Currently I am a
-            product manager at Microsoft on their back-end and emerging
-            technology team. In my free time I love doing pilates, cycling,
-            learning, trying new things, and spending quality time with my
-            family/friends. Please don't hesitate to reach out if you'd like to
-            collaborate.
-            <br></br>
-          </p>
+      <div class="grid grid-cols-3 gap-3 pb-6 px-10">
+        <div class="text-left font-thin">
+          <div class="buttons">
+            <button class="blob-btn" onClick={() => changePage("portfolio")}>
+              View my work
+              <span class="blob-btn__inner">
+                <span class="blob-btn__blobs">
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class=""></div>
+      </div>
+
+      <div class="text-9xl font-semibold tracking-wide leading-tight">
+        <marquee behavior="scroll" direction="left">
+          Product Management &#183; Full Stack Development &#183; Digital
+          Strategy &#183; Product Design
+        </marquee>
+      </div>
+
+      <div class="text-6xl font-thin tracking-tight leading-tight pb-15">
+        <marquee behavior="scroll" direction="right">
+          Based in Chicago &#183; Based in Chicago &#183; Based in Chicago
+          &#183; Based in Chicago &#183;
+        </marquee>
+      </div>
+      <hr class="mt-20 pt-10"></hr>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-3 pt-8 px-10">
+        <div class="text-3xl text-left col-span-2 font-thin">About Me</div>
+        <div class="text-4xl text-right font-thin">
+          I transform ideas into reality through a unique blend of design
+          thinking, product management, and full stack development skills.
         </div>
       </div>
 
-      <div>
-        <p class="p-10 bg-neutral-200"></p>
+      <div class="grid grid-cols-3 gap-1 px-10">
+        <div class="text-left col-span-2 font-thin"></div>
+        <div class="text-right font-thin">
+          <div class="buttons">
+            <button class="blob-btn" onClick={() => changePage("contact-me")}>
+              Contact me
+              <span class="blob-btn__inner">
+                <span class="blob-btn__blobs">
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
       </div>
+
+      <div></div>
     </div>
   );
 }

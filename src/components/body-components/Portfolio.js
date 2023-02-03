@@ -34,8 +34,7 @@ export default function Portfolio() {
         <br></br>Owned strategy from homepage to PDP for all of Target's Kids,
         Toddler, & Baby experiences. Specialities: web, mobile, & application
         strategy, internal search, SEO, pdp optimization, email marketing, item
-        set up, personalization, promo marketing, adobe analytics, &
-        filtering.
+        set up, personalization, promo marketing, adobe analytics, & filtering.
       </div>
 
       <div class="saturate-50">
@@ -58,10 +57,10 @@ export default function Portfolio() {
         <br></br>
         <b>Tech Blog</b>
         <br></br>
-        This is a CMS-style blog. Users can publish, edit,
-        comment and delete their blog posts. Users can also create an account,
-        login, logout, and manage their blog posts. Specialities: express.js,
-        MySQL, html/css, handlebars, and sequelize.
+        This is a CMS-style blog. Users can publish, edit, comment and delete
+        their blog posts. Users can also create an account, login, logout, and
+        manage their blog posts. Specialities: express.js, MySQL, html/css,
+        handlebars, and sequelize.
       </div>
 
       <div class="saturate-50">
@@ -99,9 +98,10 @@ export default function Portfolio() {
         <b>Adaptive Collection</b>
         <br></br>
         This was a digital only strategy for Target's kids, toddler, & baby
-        adaptive assortment. Key functionality of the assortment was a
-        priorities for this strategy. Specialities: item data optimization,
-        email marketing, filtering, navigation, accessibility, & SEO.
+        adaptive assortment. The functionality of the assortment was a key
+        prioritiy for this strategy. The primary goal of the experience was to
+        educate and convert users. Specialities: item data optimization, email
+        marketing, filtering, navigation, accessibility, & SEO.
       </div>
 
       <div class="saturate-50">
@@ -111,10 +111,10 @@ export default function Portfolio() {
         <br></br>
         <b>Note Taker</b>
         <br></br>
-        This application helps users take notes. Users can add
-        a title and decription to their notes and reference them later. Users
-        can also use this app to take, add, and delete notes. Specialities:
-        JavaScript, HTML, CSS, Heroku deployment, & bootstrap.
+        This application helps users take notes. Users can add a title and
+        decription to their notes and reference them later. Users can also use
+        this app to take, add, and delete notes. Specialities: JavaScript, HTML,
+        CSS, Heroku deployment, & bootstrap.
       </div>
       <div>
         <p class="p-10"></p>

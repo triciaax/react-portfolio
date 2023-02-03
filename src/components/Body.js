@@ -9,7 +9,7 @@ export default function Body(props) {
   const setActivePage = props.setActivePage;
   switch (activePage) {
     case "about-me":
-      return <AboutMe />;
+      return <AboutMe setActivePage={setActivePage} />;
     case "portfolio":
       return <Portfolio />;
     case "resume":
@@ -19,6 +19,6 @@ export default function Body(props) {
     case "contact-success":
       return <ContactSuccess />;
     default:
-      return <AboutMe />;
+      return <AboutMe setActivePage={setActivePage} />;
   }
 }
