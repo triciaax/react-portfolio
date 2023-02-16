@@ -3,7 +3,10 @@ export default function Portfolio() {
     <div class="grid grid-cols-1 gap-6 md:grid-cols-3 p-20">
       <div class="saturate-50">
         <a href="https://github.com/triciaax/weather-dashboard">
-          <img src="Weather-Dashboard.png"></img>
+          <img
+            src={process.env.PUBLIC_URL + "/Weather-Dashboard.png"}
+            alt="weather dashboard"
+          ></img>
         </a>
         <br></br>
         <b>Weather Dashboard</b>
@@ -15,7 +18,10 @@ export default function Portfolio() {
 
       <div class="saturate-50">
         <a href="https://triciaax.github.io/Wine-and-Dine/">
-          <img src="wine&dine.png"></img>
+          <img
+            src={process.env.PUBLIC_URL + "/wine&dine.png"}
+            alt="wine and dine"
+          ></img>
         </a>
         <br></br>
         <b>Wine & Dine</b>
@@ -27,7 +33,7 @@ export default function Portfolio() {
 
       <div class="saturate-50">
         <a href="https://www.target.com/c/kids/-/N-xcoz4">
-          <img src="Target.png"></img>
+          <img src={process.env.PUBLIC_URL + "/Target.png"} alt="target"></img>
         </a>
         <br></br>
         <b>Target Web, Mobile, & Application</b>
@@ -39,7 +45,10 @@ export default function Portfolio() {
 
       <div class="saturate-50">
         <a href="https://www.target.com/c/cat-jack-mix-and-match-collection/-/N-uuskq">
-          <img src="Target-M&M.png"></img>
+          <img
+            src={process.env.PUBLIC_URL + "/Target-M&M.png"}
+            alt="target"
+          ></img>
         </a>
         <br></br>
         <b>Gender Neutral Collection</b>
@@ -52,7 +61,7 @@ export default function Portfolio() {
 
       <div class="saturate-50">
         <a href="https://github.com/triciaax/tech-blog">
-          <img src="TechBlog.png"></img>
+          <img src={process.env.PUBLIC_URL + "/TechBlog.png"}></img>
         </a>
         <br></br>
         <b>Tech Blog</b>
@@ -65,7 +74,7 @@ export default function Portfolio() {
 
       <div class="saturate-50">
         <a href="https://shielded-mountain-23922.herokuapp.com/login">
-          <img src="ThingsWanted.png"></img>
+          <img src={process.env.PUBLIC_URL + "/ThingsWanted.png"}></img>
         </a>
         <br></br>
         <b>Things Wanted</b>
@@ -79,7 +88,7 @@ export default function Portfolio() {
 
       <div class="saturate-50">
         <a href="https://www.genesis-mn.com/">
-          <img src="Genesis.png"></img>
+          <img src={process.env.PUBLIC_URL + "/Genesis.png"}></img>
         </a>
         <br></br>
         <b>Genesis Group Homes</b>
@@ -92,7 +101,7 @@ export default function Portfolio() {
 
       <div class="saturate-50">
         <a href="https://www.target.com/c/kids-adaptive-clothing/-/N-1laue">
-          <img src="Target-adaptive.png"></img>
+          <img src={process.env.PUBLIC_URL + "/Target-adaptive.png"}></img>
         </a>
         <br></br>
         <b>Adaptive Collection</b>
@@ -106,7 +115,7 @@ export default function Portfolio() {
 
       <div class="saturate-50">
         <a href="https://note-taker-app-2022.herokuapp.com/">
-          <img src="Notes.png"></img>
+          <img src={process.env.PUBLIC_URL + "/Notes.png"}></img>
         </a>
         <br></br>
         <b>Note Taker</b>

@@ -46,7 +46,7 @@ export default function Footer() {
         </a>
       </div>
       <div class="text-center text-white pb-5 tracking-wider font-thin text-xs">
-        © 2022 TRICIA NGHIEM
+        © 2023 TRICIA NGHIEM
       </div>
     </footer>
   );
