@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer class="text-center text-white bg-rose-200 bottom-0 w-full">
+    <footer class="text-center text-white bottom-0 w-full">
       <div class="text-center text-white pt-2">
         <a
           href="https://www.linkedin.com/in/tricia-nghiem/"
