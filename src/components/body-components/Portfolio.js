@@ -1,6 +1,6 @@
 export default function Portfolio() {
   return (
-    <div class="grid grid-cols-1 gap-8 md:grid-cols-3 py-20 px-40">
+    <div class="grid grid-cols-1 gap-3 md:grid-cols-3 py-10 px-10">
       <div class="saturate-50 contrast-75 hover:contrast-100 brightness-25">
         <a href="https://github.com/triciaax/weather-dashboard">
           <img
@@ -90,10 +90,10 @@ export default function Portfolio() {
         <br></br>
         <b>Genesis Group Homes</b>
         <br></br>
-        This website was pitched to the COO while I was an HR intern at a local
-        company. Accessibility was a big iniatitive for this experience.
-        Specialities: website wireframes, strategy, execution, 401-redirects,
-        HTML, CSS, & CMS administration.
+        This website was pitched to the COO while I was an HR intern.
+        Accessibility was a big iniatitive for this experience. Specialities:
+        website wireframes, strategy, execution, 401-redirects, HTML, CSS, & CMS
+        administration.
       </div>
 
       <div class="saturate-50 contrast-75 hover:contrast-100 brightness-25">
@@ -104,9 +104,8 @@ export default function Portfolio() {
         <b>Adaptive Collection</b>
         <br></br>
         This was a digital only strategy for Target's kids, toddler, & baby
-        adaptive assortment. The functionality of the assortment was a key
-        prioritiy for this strategy. The primary goal of the experience was to
-        educate and convert users. Specialities: item data optimization, email
+        adaptive assortment. The primary goal of the experience was to educate
+        and convert users. Specialities: item data optimization, email
         marketing, filtering, navigation, accessibility, & SEO.
       </div>
 

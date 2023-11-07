@@ -5,12 +5,12 @@ export default function Nav(props) {
     setActivePage(pageName);
   };
   return (
-    <nav class="border-gray-200 pt-5">
+    <nav class="border-gray-200 pt-5 pb-20">
       <div class="flex flex-wrap justify-between mx-auto">
         <div class="flex items-center">
           <img
-            src={process.env.PUBLIC_URL + "/logo2023.png"}
-            class="lg:h-40"
+            src={process.env.PUBLIC_URL + "/tricia_logo23.png"}
+            class="lg:h-12"
             alt="Tricia-Nghiem-Logo"
             onClick={() => changePage("about-me")}
           />
@@ -19,13 +19,13 @@ export default function Nav(props) {
           class="w-full md:block md:w-auto sm:block sm:w-auto"
           id="navbar-default"
         >
-          <ul class=" flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
+          <ul class=" flex flex-col p-2 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
             <li>
               <button
                 class={
                   activePage === "about-me"
-                    ? "block py-2 pr-4 pl-3 text-neutral-500 rounded md:bg-transparent md:text-neutral-500 md:p-0 dark:text-neutral-500 text-sm"
-                    : "block py-2 pr-4 pl-3 text-gray rounded md:bg-transparent md:text-gray md:p-0 dark:text-gray text-sm"
+                    ? "block py-1 pr-4 pl-3 text-neutral-500 rounded md:bg-transparent md:text-neutral-500 md:p-0 dark:text-neutral-500 text-sm"
+                    : "block py-1 pr-4 pl-3 text-gray rounded md:bg-transparent md:text-gray md:p-0 dark:text-gray text-sm"
                 }
                 aria-current="page"
                 onClick={() => changePage("about-me")}
@@ -54,11 +54,11 @@ export default function Nav(props) {
                 }
                 onClick={() => changePage("resume")}
               >
-                resume
+                career
               </button>
             </li>
             <li>
-              <button>
+              <button class="block py-2 pr-4 pl-3 text-gray rounded md:bg-transparent md:text-gray md:p-0 dark:text-gray text-sm">
                 <a href="mailto: tricianghiem@gmail.com">contact</a>
               </button>
             </li>

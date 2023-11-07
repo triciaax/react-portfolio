@@ -15,4 +15,21 @@
       </text>
     </g>
   </svg>
+  <div class="grid grid-cols-3 gap-3 pb-6 px-10">
+    <div class="text-left font-thin">
+      <div class="buttons">
+        <button class="blob-btn" onClick={() => changePage("portfolio")}>
+          View my work
+          <span class="blob-btn__inner">
+            <span class="blob-btn__blobs">
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
 </div>;
