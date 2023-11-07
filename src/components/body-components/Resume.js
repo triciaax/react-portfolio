@@ -24,7 +24,6 @@ export default function Resume() {
         <div class="col-span-1 text-left ml-10">
           <strong>CONTACT & LINKS</strong>
           <br></br> Email: tricianghiem@gmail.com
-          <br></br> Resume
           <br></br> <a href="https://github.com/triciaax">&#128279; Github</a>
           <br></br>{" "}
           <a href="https://www.linkedin.com/in/tricia-nghiem/">
