@@ -22,7 +22,7 @@ export default function Resume() {
           </p>
         </div>
         <div class="col-span-1 text-left ml-10">
-          <strong>CONTACTS & LINKS</strong>
+          <strong>CONTACT & LINKS</strong>
           <br></br> Email: tricianghiem@gmail.com
           <br></br> Resume
           <br></br> <a href="https://github.com/triciaax">&#128279; Github</a>
@@ -47,8 +47,8 @@ export default function Resume() {
                 Product Manager
               </h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                Product Management and Planning for Discovery (Chat, Search, +
-                Personalization), Generative AI, + Voice of the Customer at
+                Product Management/Planning for Discovery (Chat, Search, +
+                Personalization), Generative AI, and Voice of the Customer at
                 Microsoft.
               </p>
             </li>
@@ -61,7 +61,7 @@ export default function Resume() {
                 Product Manager
               </h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                Product Management and Planning for Video Assistance Portal,
+                Product Management/Planning for Video Assistance Portal,
                 eCompany Store and Customer Sales Support on Microsoft.com.
               </p>
             </li>
@@ -74,7 +74,7 @@ export default function Resume() {
                 Site Merchandiser
               </h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                Homepage to PDP strategy for Target's website, mobile, +
+                Homepage to PDP strategy for Target's website, mobile, and
                 application experience.
               </p>
             </li>
@@ -111,7 +111,7 @@ export default function Resume() {
                 Web Strategy and Administrator
               </h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                Contract role at GGH to develop website strategy, execute, +
+                Contract role at GGH to develop website strategy, execute, and
                 onboard company on to new CMS.
               </p>
             </li>
@@ -151,7 +151,7 @@ export default function Resume() {
                 Experience Management, Driving Growth through New Category
                 Creation, Product Pricing + Packaging, Optimizing Free +
                 Freenium Business Models, Building Brand Advocacy and Brand
-                Love, + Audience Based Marketing (8 week course).
+                Love, and Audience Based Marketing (8 week course).
               </p>
             </li>
             <li class="mb-10 ml-4">
