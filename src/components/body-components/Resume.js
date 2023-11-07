@@ -43,7 +43,7 @@ export default function Resume() {
               <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 June 2023 - Current
               </time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="text-lg font-semibold dark:text-white">
                 Product Manager
               </h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -57,7 +57,7 @@ export default function Resume() {
               <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 July 2022 - May 2023
               </time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="text-lg font-semibold dark:text-white">
                 Product Manager
               </h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -70,7 +70,7 @@ export default function Resume() {
               <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 December 2019 - June 2022
               </time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="text-lg font-semibold dark:text-white">
                 Site Merchandiser
               </h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -83,7 +83,7 @@ export default function Resume() {
               <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 November 2018 - November 2019
               </time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="text-lg font-semibold dark:text-white">
                 Marketing Analyst 2
               </h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -95,7 +95,7 @@ export default function Resume() {
               <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 August 2017 - October 2018
               </time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="text-lg font-semibold dark:text-white">
                 Marketing Analyst
               </h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -107,7 +107,7 @@ export default function Resume() {
               <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 May 2017 - August 2017
               </time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="text-lg font-semibold dark:text-white">
                 Web Strategy and Administrator
               </h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -120,9 +120,7 @@ export default function Resume() {
               <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 September 2015 - May 2017
               </time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                Internships
-              </h3>
+              <h3 class="text-lg font-semibold dark:text-white">Internships</h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
                 HR Compliance Internship, Health Industy (GGH)
                 <br></br> Dean's Administrator, University of Minnesota Medical
@@ -141,7 +139,7 @@ export default function Resume() {
               <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 October - Current
               </time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="text-lg font-semibold dark:text-white">
                 Advanced Marketing Course{" "}
               </h3>
               <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -159,7 +157,7 @@ export default function Resume() {
               <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 Feb 2023
               </time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="text-lg font-semibold dark:text-white">
                 Driving Innovation by Design Course
               </h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -176,7 +174,7 @@ export default function Resume() {
               <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 May 2022 - November 2022
               </time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="text-lg font-semibold dark:text-white">
                 Full Stack Development Bootcamp Certification
               </h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -190,7 +188,7 @@ export default function Resume() {
               <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 May 2013 - 2017
               </time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="text-lg font-semibold dark:text-white">
                 Marketing, Bachelor of Science
                 <br></br> Human Resources Development, Bachelor of Science
                 <br></br>Management, Minor
@@ -229,7 +227,7 @@ export default function Resume() {
             <strong>PHILANTHROPY</strong>
             <br></br> President, Students Against Hunger
             <br></br> Event Coordinator, Students Against Hunger
-            <br></br> Page Foundation Scholar
+            <br></br> Scholar, The Page Foundation
             <br></br> New Member Coordinator, Pi Beta Phi
             <br></br> Finance Chair, Free Arts Minnesota
           </p>
